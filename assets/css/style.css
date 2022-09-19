@@ -1004,11 +1004,24 @@ section {
   background: #92cac3;
 }
 
-/* .col-lg-5.col-md-12 {
-  border: 2px red dotted;
+.col-lg-5.col-md-12 {
+  display: flex;
+  /* border: 2px red dotted; */
+  position: relative;
+  align-items: center;
+  height: 150px;
+  justify-content: center;
   
   
-} */
+}
+.col-lg-5.col-md-12 > img{
+    width: 150px;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+  
+  
+}
 
 @-webkit-keyframes animate-loading {
   0% {
